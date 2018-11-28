@@ -4,7 +4,7 @@
     "keywords": [
         "laravel",
         "trait",
-        "make:trait",
+        "artisan",
         "make"
     ],
     "authors": [
