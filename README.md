@@ -37,7 +37,7 @@ $app->register(Mtownsend\MakeTrait\Providers\MakeTraitServiceProvider::class);
 php artisan make:trait YourTraitName
 ```
 
-Your trait will be created in the ``App\Traits`` directory.
+Your trait will be created in the ``App/Traits`` directory.
 
 ### Subdirectories
 
@@ -47,7 +47,7 @@ If you wish to further organize your traits by subdirectories, you can do so in 
 php artisan make:trait Orders\\StatusCompleted --scope
 ```
 
-Your StatusCompleted trait will be created in the ``App\Traits\Orders`` directory and namespaced appropriately.
+Your StatusCompleted trait will be created in the ``App/Traits/Orders`` directory and namespaced appropriately.
 
 ## Arguments
 
