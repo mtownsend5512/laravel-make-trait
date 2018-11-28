@@ -1,0 +1,43 @@
+{
+    "name": "mtownsend/laravel-make-trait",
+    "description": "Rapid trait generation in Laravel.",
+    "keywords": [
+        "laravel",
+        "trait",
+        "make:trait",
+        "make"
+    ],
+    "authors": [
+        {
+            "name": "Mark Townsend",
+            "email": "mtownsend5512@gmail.com",
+            "role": "Developer"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "Mtownsend\\MakeTrait\\": "src"
+        }
+    },
+    "require": {
+        "php": "~7.0",
+        "illuminate/console": "^5.3",
+        "illuminate/support": "^5.3"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^6.4"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mtownsend\\MakeTrait\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mtownsend\\MakeTrait\\Providers\\MakeTraitServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}

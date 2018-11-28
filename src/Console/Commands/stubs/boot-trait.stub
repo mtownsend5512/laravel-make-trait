@@ -1,0 +1,11 @@
+<?php
+
+namespace DummyNamespace;
+
+trait DummyTrait
+{
+    public static function bootDummyMethod()
+    {
+        //
+    }
+}
