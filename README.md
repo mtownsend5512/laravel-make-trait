@@ -8,6 +8,27 @@ Install via composer:
 composer require mtownsend/laravel-make-trait
 ```
 
+### Registering the service provider
+
+For Laravel 5.4 and lower, add the following line to your ``config/app.php``:
+
+```php
+/*
+ * Package Service Providers...
+ */
+Mtownsend\MakeTrait\Providers\MakeTraitServiceProvider::class,
+```
+
+For Laravel 5.5 and greater, the package will auto register the provider for you.
+
+### Using Lumen
+
+To register the service provider, add the following line to ``app/bootstrap/app.php``:
+
+```php
+$app->register(Mtownsend\MakeTrait\Providers\MakeTraitServiceProvider::class);
+```
+
 ## Quick start
 
 ### Generating a trait
