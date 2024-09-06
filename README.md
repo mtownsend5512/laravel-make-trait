@@ -1,3 +1,5 @@
+# This Repository is no longer maintained. Laravel 9 introduced a `make:trait` command, thus package this is no longer necessary.
+
 Rapid trait generation in Laravel.
 
 ## Installation
